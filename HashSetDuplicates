@@ -1,0 +1,19 @@
+import java.util.HashSet;
+
+public class HashSetDuplicates {
+    public static void main(String[] args) {
+        HashSet<Integer> numbers = new HashSet<>();
+
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(20);
+        numbers.add(10);
+
+        System.out.println("HashSet: " + numbers);
+        System.out.println("Size: " + numbers.size());
+    }
+}
+OUTPUT:
+HashSet: [20, 10, 30]
+Size: 3
